@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-size: 98%;
+}
+
+.hero-text-box {
+   position: fixed;
+   top: 22%;
+   left: 48%;
+   
+   transform: translate(-45%,-10%);
+}
+
+.logo{
+    margin-bottom: 35px;
+    margin-left: 120px;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-left li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 5px 0 15px;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-right li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 15px 0 0;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #000;
+}
+
+.bx {
+    font-size: 20px;
+}
+
+.main-footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    border-top: 1px solid rgba(148, 148, 148, 0.4);
+    height: 40px;
+}
+
+.foot-left {
+    float: left;
+    
+}
+
+.foot-left li {
+    display: inline-block;
+    list-style: none;
+    margin: 8px 20px 8px 15px;
+}
+
+.foot-left a {
+    text-decoration: none;
+    color: rgba(66, 66, 66, 0.705);
+}
+
+.foot-middle {
+    display: inline-block;
+}
+
+.foot-middle li {
+    list-style: none;
+    transform: translateX(140%);
+    margin: 8px auto;
+}
+
+.foot-middle a {
+    text-decoration: none;
+    color: rgba(66, 66, 66, 0.705);
+}
+
+
+.foot-right {
+    float: right;
+}
+
+.foot-right li {
+    display: inline-block;
+    margin: 8px 20px 8px 15px;
+    list-style: none;
+}
+
+.foot-right a {
+    text-decoration: none;
+    color: rgba(66, 66, 66, 0.705);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(66, 66, 66, 0.705);
+}
+
+    .bar{
+        margin:0 auto;
+        width:575px;
+        border-radius:30px;
+        border:1px solid #bbbbbb;
+      }
+      .bar:hover{
+        box-shadow: 1px 1px 8px 1px #dcdcdc;
+      }
+      .bar:focus-within{
+        box-shadow: 1px 1px 8px 1px #dcdcdc;
+      }
+      .searchbar{
+        height:45px;
+        border:none;
+        width:500px;
+        font-size:16px;
+        outline: none;
+        
+      }
+      .voice{
+        height:20px;
+        position:relative;
+        top:5px;
+        left:10px;
+      }
+
+      .btn {
+          margin-top: 30px;
+          margin-left: 20px;
+          padding: 8px;
+          font-size: 100%;
+          transform: translateX(70%);
+          outline: none;
+      }
